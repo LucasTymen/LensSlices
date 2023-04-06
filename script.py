@@ -1,7 +1,11 @@
 # Your code below:
 
 # Step 1
+toppings = ["pepperoni", "pineapple", "cheese", "sausage", "olives", "anchovies", "mushrooms"]
+
 # Step 2
+prices = [2, 6, 1, 3, 2, 7, 2]
+
 # Step 3
 # Step 4
 # Step 5
