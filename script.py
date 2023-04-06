@@ -18,8 +18,15 @@ print(num_pizzas)
 print("We sell "+str(num_pizzas)+" different kinds of pizza!")
 
 # Step 6
+pizza_and_prices = [[2,"pepperoni"], [6,"pineapple"], [1,"cheese"], [3,"sausage"], [2,"olives"], [7,"anchovies"], [2,"mushrooms"]]
+
 # Step 7
+print(pizza_and_prices)
+print("##############################")
+
 # Step 8
+pizza_and_prices.sort()
+print(pizza_and_prices)
 # Step 9
 # Step 10
 # Step 11
