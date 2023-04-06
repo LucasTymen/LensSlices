@@ -27,9 +27,22 @@ print("##############################")
 # Step 8
 pizza_and_prices.sort()
 print(pizza_and_prices)
+
 # Step 9
+cheapest_pizza = pizza_and_prices[0]
+print("Len ==>  Our cheapest pizza is the " + str(cheapest_pizza) + " pizza")
+
 # Step 10
+print("Rich guy ===> what's the most exensive of all ??")
+priciest_pizza = pizza_and_prices[-1]
+print("Len ==>  Our more expensive pizza is the " + str(priciest_pizza) + " pizza")
+
 # Step 11
+print("##############################")
+pizza_and_prices.pop()
+pizza_and_prices.insert(4, [2.5,"peppers"])
+print(pizza_and_prices)
+
 # Step 12
 # Step 13
 # Step 14
