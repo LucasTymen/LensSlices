@@ -40,12 +40,13 @@ print("Len ==>  Our more expensive pizza is the " + str(priciest_pizza) + " pizz
 # Step 11
 print("##############################")
 pizza_and_prices.pop()
+
+# Step 12
 pizza_and_prices.insert(4, [2.5,"peppers"])
 print(pizza_and_prices)
 
-# Step 12
 # Step 13
+three_cheapest = pizza_and_prices[:3]
+
 # Step 14
-# Step 15
-# Step 16
-# Step 17
+print("the 3 cheapests : " + str(three_cheapest))
